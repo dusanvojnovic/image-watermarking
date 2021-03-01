@@ -34,6 +34,7 @@ def save_img():
 window = Tk()
 window.title("WatermarkImg")
 window.minsize(width = 1400, height = 900)
+window.resizable(width = False, height = False)
 window.config(padx=70, pady=15, bg="#a1cae2")
 
 text_var = StringVar()
